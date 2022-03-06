@@ -7,23 +7,23 @@ void passorfail(char grade)
     switch (grade)
     {
         case 'A':
-        result = "pass";
+        result = "Pass";
         break;
         
         case 'B':
-        result = "pass";
+        result = "Pass";
         break;
         
         case 'C':
-        result = "pass";
+        result = "Pass";
         break;
         
         case 'D':
-        result = "fail";
+        result = "Fail";
         break;
         
         case 'E':
-        result = "fail";
+        result = "Fail";
         break;
     }
     
