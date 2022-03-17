@@ -7,7 +7,7 @@ void printer(int array[10][10])
     {
         for(int j = 0; j < 10;j++)
         {
-            if (array[i][j] == 0)
+            if (j == 9)
             {
             cout<<array[i][j];
             }
