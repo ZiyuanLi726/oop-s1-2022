@@ -11,8 +11,4 @@ void cpyia(int old_array[],int new_array[],int length)
 		*(ptr2+i) = *(ptr1+i);
 	}
 
-	for (int j = 0; j<length; j++) 
-    {
-		cout << *(ptr2+j) << endl;
-	}
 }
