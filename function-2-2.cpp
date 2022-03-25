@@ -25,12 +25,7 @@ int maximum_sum(int *nums,int length)
             sum = 0;
         }
     }
-    cout << "The sub-array with the largest sum is { " ;
-	for (int j = start; j < end + 1; j++) 
-	{
-		cout << *(nums+j) << " ";
-	}
-	cout << "}" << endl;
+    
 
 	return max;
 }
