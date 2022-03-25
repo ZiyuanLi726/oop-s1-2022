@@ -9,8 +9,5 @@ void cpyda(double *old_array, double *new_array, int length)
 		new_array[i] = old_array[i];
 	}
 
-	for (int j = 0; j<length; j++) 
-	{
-		cout << new_array[j] << endl;
-	}
+	
 }
