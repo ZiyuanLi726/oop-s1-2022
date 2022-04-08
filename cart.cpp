@@ -33,17 +33,17 @@ void cart::emptyCart()
 	std::cout << "empty" << std::endl;
 }            
 
-void cart::printMeercats() 
+void cart::printMeerkats() 
 {
 	if(curNum == 0) 
 	{
-		std::cout << "No meercat" << std::endl;
+		std::cout << "No meerkat" << std::endl;
 	}
 	else 
 	{
 		for (int i = 0; i < curNum; i++) 
 		{
-			std::cout << "Meercat " << i+1 << ": Name is " << meercart[i].getName() << ", Age is " << meercart[i].getAge() << std::endl; 
+			std::cout << "Meerkat " << i+1 << ": Name is " << meercart[i].getName() << ", Age is " << meercart[i].getAge() << std::endl; 
 		}
 	}
 } 
