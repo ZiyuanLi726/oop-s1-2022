@@ -8,7 +8,7 @@ class cart
 
 public:
 	cart();    
-	void printMeercats();
+	void printMeerkats();
 	bool addMeerkat(meerkat cat);   
 	void emptyCart();               
 	
