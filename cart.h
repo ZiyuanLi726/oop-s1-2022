@@ -11,10 +11,6 @@ public:
 	void printMeerkats();
 	bool addMeerkat(meerkat cat);   
 	void emptyCart();               
-	
-
-
-private:
 	int max;
 	int curNum;
 	meerkat meercart[5];
