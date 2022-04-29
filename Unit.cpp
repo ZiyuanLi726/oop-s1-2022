@@ -18,27 +18,36 @@ Unit::Unit(int be, double sq, int pr)
 
 int Unit::get_bedrooms()
 {
-    if(be<0)
+    if(bednum<0)
     {
         bednum = 0;
     }
-    return bednum;
+    else
+    {
+        return bednum;
+    }
 }
 
 int Unit::get_value()
 {
-    if(pr<0)
+    if(price<0)
     {
         price = 0;
     }
-    return price;
+    else
+    {
+        return price;
+    }
 }
 
 double Unit::get_area()
 {
-    if(sq<0)
+    if(square<0)
     {
         square = 0;
     }
-    return square;
+    else
+    {
+        return square;
+    }
 }
