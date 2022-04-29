@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    Apparment r1(10);
+    Aparment r1(10);
     
     Unit a(4,39,100);
     Unit b(5,30,200);
