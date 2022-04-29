@@ -9,11 +9,11 @@ Unit::Unit()
     bednum = 0;
 }
 
-Unit::Unit(int, double, int)
+Unit::Unit(int be, double sq, int pr)
 {
-    bednum = int bednum;
-    square = double square;
-    price = int price;
+    bednum = int be;
+    square = double sq;
+    price = int pr;
 }
 
 int Unit::get_bedrooms()
