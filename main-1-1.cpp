@@ -14,5 +14,4 @@ int main()
     cout << "square" << room2.get_area() << endl;
     cout << "bed" << room2.get_bedrooms() << endl;
     
-    return 0;
 }
