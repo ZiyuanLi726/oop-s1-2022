@@ -11,9 +11,9 @@ Unit::Unit()
 
 Unit::Unit(int, double, int)
 {
-    int bednum;
-    double square;
-    int price;
+    int bednum = bednum;
+    double square = square;
+    int price = price;
 }
 
 int Unit::get_bedrooms()
