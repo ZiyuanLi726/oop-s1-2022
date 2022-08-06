@@ -29,6 +29,6 @@ char Referee::refGame(Human player1,Computer player2)
 
     else
     {
-        return 'D';
+        return 'L';
     }
 }
