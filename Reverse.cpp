@@ -4,36 +4,36 @@ using namespace std;
 
 int sum = 0,r;
 
-int reverseDigit(int value)
+int Reverse::reverseDigit(int value)
 {
-    if(value<=0)
-    {
-        cout<<"ERROR"<<endl;
-    }
-   
-    else if (value) 
-    {
-       r = value%10;
-       sum = sum*10+r;
-       reverseDigit(value/10);
-    }
 
-    else
-    {
-       return sum;
-    }
-    return sum;
+   if(value<0)
+   {
+       return(-1);
+   }
+   
+   if (value) 
+   {
+      r = value%10;
+      sum = sum*10+r;
+   }
+
+   else
+   {
+      cout<<value%10;
+      reverseDigit(value/10);
+   }
 }   
     
     
 
 
-string reverseString(string&letters,int l,int h)
+string Reverse::reverseString(string letters)
 {
-    if(l<h)
-    {
-        swap(letters[l],letters[h]);
-        reverseString(letters,l+1,h-1);
-    }
-    return letters;
+    int i == 0;
+    int n = letters.length();
+    if (i == n / 2)
+        return;
+    swap(str[i], str[n - i - 1]);
+    reverseString(str, i + 1);
 }
