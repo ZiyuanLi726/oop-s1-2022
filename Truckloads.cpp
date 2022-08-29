@@ -1,21 +1,24 @@
-#include "Truckloads.h"
+#include"Truckloads.h"
 #include <iostream>
+#include <cmath>
+#include <string>
 using namespace std;
 
 
-int numTrucks(int numCrates, int loadSize)
+Truckloads::Truckloads(){};
+Truckloads::~Truckloads(){};
+
+int Truckloads::numTrucks(int numCrates, int loadSize)
 {
-	
-	{
-		if(numCrates <= loadSize)
-		{
-			return 1;
-		}
-		
-		if(numCrates % 2)
-		{
-			return numTrucks(numCrates/2 + 1, loadSize) + numTrucks(numCrates/2, loadSize);
-		return 2 * numTrucks(numCrates/2, loadSize);
-		}
-	}
+    if (numCrates<=loadSize&&numCrates>0)
+    {
+        return 1;
+    }
+
+    if(numCrates<1 || numCrates>100000)
+    {
+        return 0;
+    }
+
+	return numTrucks(numCrates/2 + numCrates%2, loadSize) + numTrucks(numCrates/2, loadSize);
 }
