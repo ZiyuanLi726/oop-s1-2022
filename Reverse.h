@@ -7,7 +7,7 @@ class Reverse
 {
     public:
     int reverseDigit(int value);
-    string reverseString(string letters,int len,int hei);
+    string reverseString(string letters,int l,int h);
 
     private:
     int value;
